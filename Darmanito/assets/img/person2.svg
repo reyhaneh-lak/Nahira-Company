@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="54" viewBox="0 0 53 54">
+  <g id="Group_5589" data-name="Group 5589" transform="translate(-121 75.5)">
+    <g id="Initials" transform="translate(170)">
+      <ellipse id="Background" cx="26" cy="26.5" rx="26" ry="26.5" transform="translate(-48.5 -75)" fill="#1894ff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </g>
+    <path id="_Icon_Color" data-name="🔹 Icon Color" d="M14.868,17.656V15.8A2.788,2.788,0,0,0,12.08,13.01H4.647A2.788,2.788,0,0,0,1.859,15.8v1.858a.929.929,0,1,1-1.859,0V15.8a4.646,4.646,0,0,1,4.647-4.647H12.08A4.646,4.646,0,0,1,16.727,15.8v1.858a.929.929,0,1,1-1.859,0ZM5.078,7.932A4.646,4.646,0,1,1,8.363,9.293,4.616,4.616,0,0,1,5.078,7.932Zm.5-3.285A2.788,2.788,0,1,0,8.363,1.859,2.791,2.791,0,0,0,5.576,4.647Z" transform="translate(139.137 -57.792)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,896 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "iranyekan";
+    src: url(../../assets/font/iranyekan/Yekan.eot);
+    src: url(../../assets/font/iranyekan/eot?#iefix)format('embedded-opentype'),
+         url(../../assets/font/iranyekan/Yekan.ttf)format('truetype'),
+         url(../../assets/font/iranyekan/Yekan.otf)format('truetype'),
+         url(../../assets/font/iranyekan/Yekan.woff)format('woff');
+}
+body{
+    z-index: 0;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    font-family: "iranyekan";
+}
+
+/* display:none */
+    #check ,
+    .nav__li_rules ,
+    .nav__navbar_checkbtn ,
+    .nav__navbar hr ,
+    .nav__li_download{
+        display: none;
+    }
+
+.nav__logo{
+    width: 150px;
+    height: 51px;
+    margin-top: 28px; 
+    display: flex;  
+}
+.nav__logo_text{   
+    width: 92px;
+    height: 51px;
+    position: relative;
+    margin-right: 10px;
+}
+.nav__logo_text p{
+    width: 90px;
+    height: 16px;
+    font-size: 12px;
+    margin-top: 10px;    
+}
+.nav__logo_text p:first-child{
+    width: 57px;
+    height: 24px;
+    font-size: 18px ;
+    font-weight:bold;
+    margin-top: 0;
+}
+.nav__logo_img{
+    
+    width: 35.22px;
+    height: 45.09px;
+}
+.nav__download{
+    width: 170px;
+    height: 52px;
+    background-color: #e6f3ff;
+    border-radius: 10px;
+    margin-top: 28px;
+    border: none;   
+}
+.nav__download a{
+    text-decoration: none;   
+}
+.nav__download p{
+    width: 94px;    
+    font-family: "iranyekan";    
+    font-size: 16px;
+    font-weight: bold;
+    color: #1894ff;
+    margin:0 auto;
+    line-height: 50px;   
+}
+nav{  
+    display: flex;
+    justify-content: space-evenly;   
+}
+.nav__navbar{
+    width:500px;
+    height: 28px;
+    display: inline-block;
+    margin-top: 40px;       
+}
+.nav__navbar ul{
+    list-style-type: none;
+    list-style-position:inside;
+    text-align: center;
+}
+.nav__navbar ul li{ 
+    margin-left: 40px;
+    display: inline-block;
+    line-height: 40px;
+    color: #4C4C4C;   
+}
+.nav__navbar ul li a{
+    text-decoration: none;
+    color: #4C4C4C;  
+}
+.nav__navbar ul li a:hover{
+    color: #1894ff;
+}
+.nav__navbar_checkbtn{
+    font-size: 30px;
+    color:#1894ff;
+    float: left;
+    line-height: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav__li_download {
+    width: 170px;
+    height: 52px;
+    border: none;   
+    color: #1894FF; 
+    background-color: #e6f3ff;
+    border-radius: 10px;  
+}
+.nav__li_download p{
+    border: none;   
+    color: #1894FF;
+    font-weight: bold;
+    font-size: 16px;  
+    background-color: #e6f3ff;
+    border-radius: 10px;  
+    font-family: 'iranyekan';
+
+}
+
+.FAQ{    
+    height: 120px;
+    background-color: #1894ff;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;   
+    background-image: url(../img/FAQ&contact-me-background.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+}
+.FAQ p{
+    width: 186px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 120px;
+}
+.clear{
+    clear: both;
+}
+.question{
+    height: 600px;
+}
+.question__text p{
+    margin-top: 70px;
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 4px solid #00DE9A;
+    color: #2361b5;
+    padding-right: 25px;
+    width: 300px;
+}
+.question__text{
+    width: 500px;
+}
+.question__box{
+    display: flex;   
+    justify-content: space-evenly;   
+}
+.question__drugstore ,
+.question__store ,
+.question__visit1 ,
+.question__visit2{    
+    width: 160px;
+    height: 160px;
+    box-shadow: 0 0 30px -20px;
+    color: #1894ff;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    filter: grayscale(100%);
+    margin-top: 30px;
+}
+.question__drugstore img ,
+.question__store img ,
+.question__visit1 img ,
+.question__visit2 img{
+    margin-top: 30px;    
+} 
+.question__visit1 img:first-child ,
+.question__visit2 img:first-child{
+    position:absolute;
+    bottom: 135px;
+}
+ .question__visit1 ,
+ .question__visit2{
+     position: relative;
+}
+.question__drugstore:hover ,
+.question__store:hover ,
+.question__visit1:hover ,
+.question__visit2:hover{
+    filter:none;
+    box-shadow: 0 0 30px -20px;
+    color: #1894ff;  
+}
+.question__drugstore p ,
+.question__store p ,
+.question__visit1 p ,
+.question__visit2 p{
+    margin-top: 20px;   
+    color: #2361b5;  
+}
+.question__description ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+.question__ul ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+.question__description li:hover .question__ul{
+    display: block;
+}
+.question__description li .question__ul{
+    display: none;
+}
+.question__description li::before{
+    margin-left: 50px;
+    vertical-align: middle;
+    content: url(../../assets/img/+.svg);
+}
+.question__description{
+    margin-right: 130px;
+    margin-top: 50px;
+    color: #2361b5;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.question__ul li::before{
+    margin-left: 50px;
+    vertical-align: middle;
+    content: url(../../assets/img/-.svg);
+}
+.question__ul p{
+    font-size: 14px;
+    border-right: 4px solid #00DE9A;
+    padding-right: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    color: black;
+}
+.clear5{
+    clear: both;
+}
+.footer__content{
+    width: 1111px;
+    height: 222;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.support{
+    text-align: -webkit-center;
+    height: 130px;
+    background-color: #1894ff;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;
+}
+.support__description{   
+    display: flex;   
+}
+.support__description p{
+    margin-left: 50px;
+    font-size: 14px;
+    line-height: 130px;
+    color: white;    
+}
+.support__description p:first-child{
+    font-size: 20px;
+    font-weight: bold;  
+}
+.support__tell{
+    width: 260px;
+    height: 52px;
+    background-color: #2361b5;
+    color: white;
+    font-size: 16px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 52px;
+    border-radius: 10px;
+    font-family: "iranyekan";
+    margin-top: 40px;
+}
+.support__tell p{
+    display: inline-block;
+    margin-left: 10px;
+}
+.support__tell a{
+    text-decoration: none;
+    color: white;
+}
+.support__tell img{
+    margin-left: 20px;
+    vertical-align: middle;
+    width: 24px;
+    height: 26.2px;
+    align-self: center;
+}
+footer{
+    margin: 100 auto;
+    height: 222px;
+    display: flex;
+    justify-content: space-around;   
+}
+.footer__description{
+    width: 30%;
+    height:222px;  
+}
+.footer__description_text p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.footer__description_text p:first-child{
+    font-weight: bold;
+    margin-top: 30px; 
+}
+.footer__logo{
+    width: 143px;
+    height: 51px;        
+}
+.footer__logo_text{
+    float: left;
+    width: 92px;
+    height: 51px;
+}
+.footer__logo_text p{
+    width: 90px;
+    height: 16px;
+    font-size: 12px;
+    margin-top: 10px;   
+}
+.footer__logo_text p:first-child{
+    width: 57px;
+    height: 24px;
+    font-size: 18px ;
+    font-weight:bold;
+    margin-top: 0;
+}
+.footer__logo_img{
+    float: right;
+    width: 35.22px;
+    height: 45.09px;
+}
+.footer__description_text{
+    width: 256px;
+}
+.footer__socialmedia img{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.footer__service{
+    width: 15%;
+    height: 222px;
+}
+.footer__service p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer__service ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+.footer__service ul li a{
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+}
+.footer__service ul li a:hover{
+    border-right: 2px solid #00DE9A;
+    text-decoration:none;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: #2361b5;
+}
+.footer__pages{
+    width: 15%;
+    height: 222px;
+}
+.footer__pages p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer__pages ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+.footer__pages ul li a{
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+}
+.footer__pages ul li a:hover{
+    border-right: 2px solid #00DE9A;
+    text-decoration:none;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: #2361b5;
+}
+.footer__download{
+    width: 33%;
+    height: 222px;
+}
+.footer__download p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer__store{
+    display: flex;
+    justify-content: space-around;
+    width: 376px;
+    height: 55px;
+    
+}
+.footer__appstore{
+    width: 180px;
+    height: 55px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+@media all and (min-width:280px) and (max-width:374px){
+
+    /* display:none */
+    .nav__download ,
+    .question__visit1 img:first-child ,
+    .question__visit2 img:first-child ,
+    .footer__service ,
+    .footer__pages ,
+    .footer__download {
+        display: none;
+    }
+
+    /* display:block */
+    .nav__li_download ,
+    .nav__li_rules ,
+    .nav__navbar ul li ,
+    .nav__navbar_checkbtn ,
+    .nav__navbar hr ,
+    .question__description ,
+    .footer__content{
+        display: block;
+    }
+
+    .nav__navbar_checkbtn{
+        margin-left: 0;
+    }
+    .nav__navbar{
+        width: 90px;
+        margin-top: 35px;  
+    }
+    .nav__logo{
+        width: 140;
+    }
+    .nav__ul{
+        position: fixed;
+        width: 280px;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;    
+        background-color: white;
+    }
+    .nav__navbar ul li{
+        margin: 30px 0;   
+        z-index: 30000;
+        text-align: right;
+        margin-right: 35px;   
+    }
+    .nav__navbar ul li a{
+        font-size: 20px;
+        color:black;      
+    }
+    a:hover,a.active{
+        background: none;
+        color:#2361b5;
+    }
+    #check:checked ~ ul{
+        right: 0px;
+        width: 374px;
+    }
+    .nav__navbar hr{
+        width: 250px;
+        margin-right: 25px;
+    }
+    .FAQ {
+        height: 60px;
+        background-image: none;
+    }
+    .FAQ p{
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 17px;
+        background-image: none;
+        text-align: center;
+    }
+    .question{
+        height: 350px;
+    }
+    .question__text ,.question__text p{
+        width: 250px;
+    }
+    .question__box{            
+        height: 140px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;   
+        overflow-x: scroll;
+        overflow-y: hidden;
+        z-index: -1;
+        justify-content: unset;
+        /* position: relative; */
+    }
+    .question__drugstore ,
+    .question__store ,
+    .question__visit1 ,
+    .question__visit2{
+        width: 70px;
+        height: 70px;
+        margin-top: 20;
+        margin-bottom: 0;
+        margin-right: 15px;   
+        border-radius: 5px;
+    }
+    .question__drugstore p ,
+    .question__store p ,
+    .question__visit1 p,
+    .question__visit2 p{
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .question__drugstore img ,
+    .question__store img ,
+    .question__visit1 img ,
+    .question__visit2 img{
+        width: 70px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .question__text p{
+        font-size: 16px;
+        margin-right: 15px;
+        margin-top: 45px;
+        padding-right: 10px;
+    }
+    .question__description{
+        margin-right: 10px;           
+        font-size: 10px;
+        margin-top: 0;
+    }
+    .question__description li::before {
+        margin-left: 30;
+    }
+    .question__ul p{
+        font-size: 12px;
+        padding-right: 35px;
+    }
+    .support{
+        flex-direction: column;
+        place-items: center;
+        height: 170px;
+    }
+    .support__description{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 204px;
+        line-height: 30px;
+    }
+    .support__description p{
+        line-height: 0;
+        font-size: 12px;
+        font-weight: lighter;
+        width: 210;    
+    }
+    .support__description p:first-child{
+        font-size: 16px;
+        font-weight: bold;    
+    }
+    .support__tell{
+        width:260px ;
+        height: 52px;
+        margin-bottom: 20px;    
+    }
+    footer{  
+        margin: 0;
+    }
+    .footer__description{    
+        margin-top: 50px;
+        height: 0px;
+        margin-left: 0;
+    }
+    .footer__content{
+        margin-right: 50px;   
+    }
+    .footer__description_text p{
+        font-size: 14px;
+    }
+    .footer__description_text{
+        margin-top: 35px;
+    }
+    .support__description p{
+        font-size: 12px;
+    }
+    .support__description p:first-child{
+        font-size: 18px;
+    }
+    .footer__socialmedia{
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+    
+
+}  
+@media all and (min-width:375px) and (max-width:768px){
+
+    /* display:none */
+    .nav__download ,
+    .question__visit1 img:first-child ,
+    .question__visit2 img:first-child ,
+    .footer__service ,
+    .footer__pages ,
+    .footer__download {
+        display: none;
+    }
+
+    /* display:block */
+    .footer__content ,
+    .nav__li_download ,
+    .nav__navbar hr ,
+    .nav__li_rules ,
+    .nav__navbar ul li ,
+    .nav__navbar_checkbtn{
+        display: block;
+    }
+    .nav__logo{
+        margin-right: 20px;
+    }
+    .nav__navbar{
+        margin-top: 35px;
+   }
+    .nav__logo_text{
+        width: 140;
+        margin-right: 20px;
+    }
+    .nav__navbar_checkbtn{
+        margin-left: 30px;
+   }
+    .nav__ul{
+        position: fixed;
+        width: 375px;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;    
+        background-color: white;
+    }
+    .nav__navbar ul li{
+        margin: 30px 0;    
+        z-index: 30000;
+        text-align: right;
+        margin-right: 35px;    
+    }
+    .nav__navbar ul li a{
+        font-size: 20px;
+        color:black;        
+    }
+    a:hover,a.active{
+        background: none;
+        color:#2361b5;
+    }
+    #check:checked ~ ul{
+        right: 0px;
+        width: 768px;
+    }
+    .nav__navbar hr{
+        width: 320px;
+        margin-right: 25px;
+    }
+    .FAQ {       
+        height: 60px;
+        background-image: none;
+    }
+    .FAQ p{
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 17px;
+        text-align: center;
+    }
+    .question{
+        height: 450px;
+    }
+    .question__text ,.question__text p{
+        width: 300px;
+    }
+    .question__box{   
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+        height: 170px;
+        z-index: -1;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: unset;
+        
+    }
+    .question__drugstore ,
+    .question__store ,
+    .question__visit1 ,
+    .question__visit2{
+        width: 120px;
+        height: 120px;
+        margin-left: 20px;
+    }
+    .question__drugstore{
+        margin-right: 30px;
+    }
+    .question__drugstore p ,
+    .question__store p ,
+    .question__visit1 p ,
+    .question__visit2 p{
+        margin-top: 10px;
+    }
+    .question__drugstore img ,
+    .question__store img ,
+    .question__visit1 img ,
+    .question__visit2 img{
+        width: 120px;
+        height: 43.73px;
+    }
+    .question__text p{
+        font-size: 16px;
+        margin-right: 35px;
+        margin-top: 45px;
+    }
+    .question__description{
+        margin-right:20px;       
+        font-size: 12px;
+    }
+    .question__description li::before {
+        margin-left: 30px;
+    }
+    .question__ul p{
+        font-size: 12px;
+        padding-right: 35px;
+    }
+    .support{
+        flex-direction: column;     
+        align-items: center;
+        height: 170px;
+    }
+    .support__description{
+        display: flex;
+        flex-direction: column;        
+        margin-top: 30px;       
+        height: 51px;
+        margin-right: 50px;
+        align-items: center;
+        line-height: 30px;   
+    }
+    .support__description p{
+        line-height: 0;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    .support__description p:first-child{
+        font-size: 16px;
+        font-weight: bold;       
+    }
+    .support__tell{
+        width:260px ;
+        height: 52px;
+        margin-bottom: 30px;   
+        align-items: center;
+    }
+    footer{
+        margin: 50 auto;    
+    }
+    .footer__description{    
+        margin-top: 0;
+        height: 100px;
+        margin-left: 0;
+    }
+    .footer__content{
+        height: 222;
+        width: 230px;
+   }
+    .footer__description_text p{   
+        font-size: 14px;
+   }
+    .footer__description_text{
+        margin-top: 35px;
+        width: 256px;
+    }
+    .footer__logo_text p{
+        font-size: 12px;
+    }
+    .footer__logo_text p:first-child{
+        font-size: 18px;
+    }
+    .footer__socialmedia{
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+
+}
+@media all and (min-width:769px) and (max-width:1365px){
+
+    .nav__navbar ul li{
+        margin-left:20px;
+    }
+    .nav__navbar ul{
+        margin-right:40;
+    }
+    .nav__logo{
+        margin-right: 10px;
+    }
+    .nav__download{
+        width: 140px;
+        margin-left: 10px;
+    }
+    .FAQ{
+        background-image: none;
+    }
+    .question{
+        height: 600px;
+    }
+    .question__text p{
+        margin-right: 30px;
+    }
+    .question__description{
+        margin-right: 30px;
+        margin-top: 40;
+    }
+    .support{   
+        justify-content: space-around;
+    }
+    .support__description{
+        margin-right: 0;
+    }
+    .support__description p{
+        margin-left: 0;
+        margin-right: 40px;
+    }
+    .support__description p:first-child{
+        margin-right: 0;
+    }
+    .support__tell{
+        margin-left: 0;   
+    }
+    .footer__appstore img ,.footer__appstore{
+        width: 120px;
+    }
+    .footer__appstore{
+        margin-left:10px ;
+        border: none;
+    }
+    .footer__store{
+        width: 250px;
+    }
+    .footer__description_text{
+        margin-right: 10px;
+        width: 256px;
+    }
+    .footer__description{
+        margin-right: 50px;
+    }
+
+}
+
