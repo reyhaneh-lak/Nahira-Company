@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1456" height="240" viewBox="0 0 1456 240">
+  <defs>
+    <filter id="Rectangle_1821" x="0" y="0" width="1456" height="240" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#00de9a" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5556" data-name="Group 5556" transform="translate(46 -725.994)">
+    <g id="Group_5288" data-name="Group 5288" transform="translate(-1 -640.006)">
+      <g id="Group_5548" data-name="Group 5548">
+        <g id="Group_5547" data-name="Group 5547">
+          <g id="Group_5555" data-name="Group 5555">
+            <g id="Group_5554" data-name="Group 5554">
+              <g id="Group_5553" data-name="Group 5553">
+                <g id="Group_5552" data-name="Group 5552">
+                  <g id="Group_5551" data-name="Group 5551">
+                    <g id="Group_5550" data-name="Group 5550">
+                      <g id="Group_5549" data-name="Group 5549">
+                        <g transform="matrix(1, 0, 0, 1, -45, 1366)" filter="url(#Rectangle_1821)">
+                          <rect id="Rectangle_1821-2" data-name="Rectangle 1821" width="1366" height="150" transform="translate(45 45)" fill="#1894ff"/>
+                        </g>
+                        <g id="Group_5423" data-name="Group 5423">
+                          <path id="Combined_Shape" data-name="Combined Shape" d="M73,73h0a72.542,72.542,0,0,1-28.415-5.737,72.755,72.755,0,0,1-23.2-15.644,72.755,72.755,0,0,1-15.644-23.2A72.542,72.542,0,0,1,0,0H73V73Z" transform="translate(73 1484.006) rotate(180)" fill="#e6f3ff" opacity="0.07"/>
+                          <path id="Combined_Shape-2" data-name="Combined Shape" d="M73,73h0a72.542,72.542,0,0,1-28.415-5.737,72.755,72.755,0,0,1-23.2-15.644,72.755,72.755,0,0,1-15.644-23.2A72.542,72.542,0,0,1,0,0H73V73Z" transform="translate(1 1557.006) rotate(-90)" fill="#e6f3ff" opacity="0.07"/>
+                          <circle id="Oval" cx="18" cy="18" r="18" transform="translate(19 1466.006) rotate(90)" fill="#e6f3ff" opacity="0.07"/>
+                        </g>
+                        <g id="Group_5422" data-name="Group 5422">
+                          <path id="Combined_Shape-3" data-name="Combined Shape" d="M73,73h0a72.542,72.542,0,0,1-28.415-5.737,72.755,72.755,0,0,1-23.2-15.644,72.755,72.755,0,0,1-15.644-23.2A72.542,72.542,0,0,1,0,0H73V73Z" transform="translate(1295 1484.006)" fill="#e6f3ff" opacity="0.07"/>
+                          <path id="Combined_Shape-4" data-name="Combined Shape" d="M73,73h0a72.542,72.542,0,0,1-28.415-5.737,72.755,72.755,0,0,1-23.2-15.644,72.755,72.755,0,0,1-15.644-23.2A72.542,72.542,0,0,1,0,0H73V73Z" transform="translate(1367 1411.006) rotate(90)" fill="#e6f3ff" opacity="0.07"/>
+                          <circle id="Oval-2" data-name="Oval" cx="18" cy="18" r="18" transform="translate(1349 1502.006) rotate(-90)" fill="#e6f3ff" opacity="0.07"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

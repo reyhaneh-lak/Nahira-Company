@@ -1,0 +1,1355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "iranyekan";
+    src: url(../../assets/font/iranyekan/Yekan.eot);
+    src: url(../../assets/font/iranyekan/eot?#iefix)format('embedded-opentype'),
+         url(../../assets/font/iranyekan/Yekan.ttf)format('truetype'),
+         url(../../assets/font/iranyekan/Yekan.otf)format('truetype'),
+         url(../../assets/font/iranyekan/Yekan.woff)format('woff');
+}
+body{  
+    z-index: 0;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    font-family: "iranyekan";   
+}
+/* display:none */
+#check ,
+.nav__li_rules ,
+.nav__navbar_checkbtn ,
+.nav__li_download ,
+.nav__navbar hr ,
+.register__form_responsive ,
+.service__description p:last-child ,
+.service__drugstore_description p:nth-child(2) ,
+.service__cosmetic_description p:nth-child(2){
+    display: none;
+}
+.nav__logo{
+    width: 150px;
+    height: 51px;
+    margin-top: 28px; 
+    display: flex;    
+}
+.nav__logo_text{   
+    width: 92px;
+    height: 51px;
+    position: relative;
+    margin-right: 10px;
+}
+.nav__logo_text p{
+    width: 90px;
+    height: 16px;
+    font-size: 12px;
+    margin-top: 10px;    
+}
+.nav__logo_text p:first-child{
+    width: 57px;
+    height: 24px;
+    font-size: 18px ;
+    font-weight:bold;
+    margin-top: 0;
+}
+.nav__logo_img{    
+    width: 35.22px;
+    height: 45.09px;
+}
+.nav__download{
+    width: 170px;
+    height: 52px;
+    background-color: #e6f3ff;
+    border-radius: 10px;
+    margin-top: 28px;
+    border: none;
+    font-family: 'iranyekan';    
+}
+
+.nav__download a{
+    text-decoration: none;    
+}
+.nav__download p{
+    width: 94px;   
+    font-size: 16px;
+    font-weight: bold;
+    color: #1894ff;
+    margin:0 auto;
+    line-height: 50px;   
+}
+nav{  
+    display: flex;
+    justify-content: space-evenly;   
+}
+.nav__navbar{
+    width:500px;
+    height: 28px;
+    display: inline-block;    
+    margin-top: 40px;       
+}
+.nav__navbar ul{
+    list-style-type: none;
+    list-style-position:inside;
+    text-align: center;
+}
+.nav__navbar ul li{    
+    margin-left: 40px;
+    display: inline-block;
+    line-height: 40px;   
+}
+.nav__navbar ul li a{
+    text-decoration: none;
+    color: #707070;    
+}
+.nav__navbar ul li a:hover{
+    color: #1894ff;
+}
+.nav__navbar_checkbtn{
+    font-size: 30px;
+    color:#1894ff;
+    float: left;
+    line-height: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav__li_download {
+    width: 170px;
+    height: 52px;
+    border: none;   
+    color: #1894FF; 
+    background-color: #e6f3ff;
+    border-radius: 10px;  
+}
+.nav__li_download p{
+    border: none;   
+    color: #1894FF;
+    font-weight: bold;
+    font-size: 16px;  
+    background-color: #e6f3ff;
+    border-radius: 10px;  
+    font-family: 'iranyekan';
+
+}
+.register{   
+    display: flex;
+    justify-content: space-around;
+}
+.register__form_content{
+    margin-top: 160px;
+    margin-right: 110px;   
+}
+.register__description p{
+    width: 444px;
+    height: 104px;
+    font-size: 16px;
+}
+.register__description p:first-child{
+    width: 405px;
+    height: 110px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1894ff;
+}
+.register__form{
+    margin-top: 20px;
+    width: 500px;
+    height: 65px;
+    border-radius:10px ;
+    border:0px solid #707070;
+    background-color: #70707010;
+    font-size: 16px;    
+    border: none;
+}
+.register__form input{
+    width: 353px;
+    height: 65px;
+    padding-right: 30px; 
+    background-color: #70707000;
+    font-size: 16px;  
+    border: none;
+}
+.register__form input:focus{
+    outline: none;
+}
+.register__form input:last-child{
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #1894ff;
+    color: white;
+    padding-right: 0;
+    font-weight: bold;
+}
+.register__form_responsive{
+    margin-top: 20px;
+    width: 500px;
+    height: 65px;
+    border-radius:10px ;
+    border:0px solid #707070;
+    background-color: #70707010;
+    font-size: 16px;   
+    border: none;
+}
+.register__form_responsive input{
+    width: 353px;
+    height: 65px;
+    padding-right: 30px;   
+    background-color: #70707000;
+    font-size: 16px;   
+    border: none;
+}
+.register__form_responsive input:focus{
+    outline: none;
+}
+.register__form_responsive input:last-child{
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #1894ff;
+    color: white;
+    padding-right: 0;
+    font-weight: bold;
+}
+.register__drugstore_name{
+    width: 504px;
+    height: 371px; 
+    margin-left: 100px;
+    margin-top: 100px;   
+}
+.register__drugstore_container1{
+    width: 438px;
+    height: 125px;
+    color: #1894ff;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 0 30px -20px;
+}
+.register__drugstore_contain1{
+    width: 319px;
+    height: 75px;   
+    margin-right: 25px;
+}
+.register__drugstore_logo1{
+    width: 75px;
+    height: 75px;
+    float: right;
+}
+.register__drugstore_title1{
+    width: 227.84px;
+    height: 68.14px;
+    float: left;
+    margin-top: 7px;
+}
+.register__drugstore_title1 p{
+    font-size: 12px;
+    color: black;
+    padding-right: 5px;
+}
+.register__drugstore_location1{
+    display: flex;  
+}
+.register__drugstore_title1 p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-bottom: 10px; 
+}
+.register__drugstore_button1{
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: #1894ff;
+    margin-bottom: 75px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.register__drugstore_container2{
+    width: 306px;
+    height: 87px;
+    color: #1894ff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 30px -20px;
+    margin-right: 65px;
+    margin-top: 35px;
+    opacity: 0.7;
+}
+.register__drugstore_contain2{
+    width: 222px;
+    height: 53px;  
+    margin-right: 25px;
+    position: relative;
+}
+.register__drugstore_logo2{
+    width: 52px;
+    height: 53px;   
+    float: right;
+}
+.register__drugstore_title2{
+    width: 158px;
+    height: 46px;   
+    float: left;
+}
+.register__drugstore_title2 p{
+    font-size: 8px;
+    margin-top: 5px;
+    color: black;
+    margin-right: 3px;
+}
+.register__drugstore_location2{
+    display: flex;  
+}
+.register__drugstore_title2 p:first-child{
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-right: 5px;   
+}
+.register__drugstore_container3{
+    width: 306px;
+    height: 87px;
+    color: #1894ff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 30px -20px;
+    margin-right: 195px;
+    margin-top: 35px;
+    opacity: 0.5;
+}
+.register__drugstore_contain3{
+    width: 222px;
+    height: 53px;   
+    margin-right: 25px;
+    position: relative;
+}
+.register__drugstore_logo3{
+    width: 52px;
+    height: 53px; 
+    float: right;
+}
+.register__drugstore_title3{
+    width: 143px;
+    height: 47px;
+    float: left;
+    margin-top: 7px;
+}
+.register__drugstore_title3 p{
+    font-size: 8px;
+    color: black;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+.register__drugstore_title3 p:first-child{
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    padding-right: 10px;
+}
+.register__drugstore_location3{
+    display: flex;   
+}
+.register__drugstore_button3{
+    width: 55px;
+    height: 19px;
+    border-radius: 2px;
+    background-color: #1894ff;
+    font-size: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    margin-bottom: 53px;
+    margin-left: 10px;
+}
+.clear{
+    clear: both;
+}
+.counted{   
+    height: 150px;
+    background-color: #1894ff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+    align-items: center;
+    background-image: url(../img/register_background.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+.counted__container{
+    width: 141px;
+    height: 86px;
+    color: white;
+}
+.counted__container p{
+    font-size: 16px;   
+}
+.counted__container p:last-child{
+    font-size: 36px;
+}
+.clear1{
+    clear: both;
+}
+.service__description{
+    width: 350px;
+    height: 72px;
+    margin-top: 90px;
+    margin-right: 100px;
+}
+.service__description p{
+    font-size: 16px;
+    width: 287px;
+    height: 21px;   
+}
+.service__description p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    border-right:4px solid #00DE9A;
+    width: 319px;
+    height: 28px;
+    padding-right: 20px;
+    color: #1894ff; 
+}
+.service__container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;;  
+}
+.service__drugstore{
+    width: 443px;
+    height: 500px;
+    border-radius: 40px;
+    box-shadow: 0 0 30px -20px;
+    color: #1894ff;
+}
+.service__drugstore_description{
+    width: 401px;
+    height: 109px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;   
+}
+.service__drugstore_description p{
+    font-size:14px ;
+    color: black;
+}
+.service__drugstore_description p:first-child{
+    font-size:20px ;
+    font-weight: bold;
+    color: #1894ff;
+}
+.service__drugstore_picture{
+    width: 139px;
+    height: 170px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+
+}
+.service__drugstore_picture img{
+    width: 139px;
+    height: 170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.service__drugstore input{
+    margin-top: 30px;
+    display: flex;
+    margin-right: 130px;
+    width: 170px;
+    height: 52px;
+    padding-right: 65px;
+    background-color: #1894ff;
+    color: white;
+    border: 0px solid #1894ff ;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;  
+}
+.service__cosmetic{
+    width: 443px;
+    height: 500px;
+    border-radius: 40px;
+    box-shadow: 0 0 30px -20px;
+    color: #1894ff;   
+}
+.service__cosmetic_picture{
+    width: 139px;
+    height: 170px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.service__cosmetic_picture img{
+    width: 139px;
+    height: 170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.service__cosmetic_description{
+    width: 401px;
+    height: 109px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.service__cosmetic_description p{
+    font-size:14px ;
+    color: black;
+}
+.service__cosmetic_description p:first-child{
+    font-size:20px ;
+    font-weight: bold;
+    color: #1894ff;
+}
+.service__cosmetic input{
+    margin-top: 30px;
+    display: flex;
+    margin-right: 130px;
+    width: 170px;
+    height: 52px;
+    padding-right: 65px;
+    background-color: #1894ff;
+    color: white;
+    border: 0px solid #1894ff ;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.clear5{
+    clear: both;
+}
+.support{
+    text-align: -webkit-center;
+    height: 130px;
+    background-color: #1894ff;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 150px;
+}
+.support__description{  
+    display: flex;  
+}
+.support__description p{
+    margin-left: 50px;
+    font-size: 14px;
+    line-height: 130px;
+    color: white;  
+}
+.support__description p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+.support__tell{
+    width: 260px;
+    height: 52px;
+    background-color: #2361b5;
+    color: white;
+    font-size: 16px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 52px;
+    border-radius: 10px;
+    font-family: "iranyekan";
+    margin-top: 40px;
+}
+.support__tell img{
+    width: 24px;
+    height: 26.2px;
+    align-self: center;
+}
+footer{
+    margin: 100 auto;
+    height: 222px;
+    display: flex;
+    justify-content: space-around;   
+}
+.footer__content{
+    width: 1111px;
+    height: 222;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__description{
+    width: 30%;
+    height:222px;   
+}
+.footer__description_text{
+    width: 256px;
+}
+.footer__description_text p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.footer__description_text p:first-child{
+    font-weight: bold;
+    margin-top: 30px;  
+}
+.footer__logo{
+    width: 143px;
+    height: 51px;
+}
+.footer__logo_text{
+    float: left;
+    width: 92px;
+    height: 51px;
+    position: relative;
+}
+.footer__logo_text p{
+    width: 90px;
+    height: 16px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.footer__logo_text p:first-child{
+    width: 57px;
+    height: 24px;
+    font-size: 18px ;
+    font-weight:bold;
+    margin-top: 0;
+}
+.footer__logo_img{
+    float: right;
+    width: 35.22px;
+    height: 45.09px;
+}
+.footer__socialmedia img{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.footer__service{
+    width: 15%;
+    height: 222px;
+}
+.footer__service p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer__service ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+.footer__service ul li a{
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+}
+.footer__service ul li a:hover{
+    border-right: 2px solid #00DE9A;
+    text-decoration:none;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: #2361b5;
+}
+.footer__pages{
+    width: 15%;
+    height: 222px;
+}
+.footer__pages p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer__pages ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+.footer__pages ul li a{
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+}
+.footer__pages ul li a:hover{
+    border-right: 2px solid #00DE9A;
+    text-decoration:none;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: #2361b5;
+}
+.footer__download{
+    width: 33%;
+    height: 222px;
+}
+.footer__download p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer__store{
+    display: flex;
+    justify-content: space-around;
+    width: 376px;
+    height: 55px; 
+}
+.footer__appstore{
+    width: 180px;
+    height: 55px;
+    background-color: black;
+    border-radius: 10px;
+    border: 0;
+}
+.footer__appstore p{
+    color: #EFEFEF;
+}
+
+
+
+
+
+
+@media all and (min-width:280px) and (max-width:374px){
+
+    /* display:none */
+    .nav__download ,
+    .nav__download ,
+    .register__form ,
+    .register__drugstore_container2 ,
+    .register__drugstore_container3 ,
+    .service__description p:nth-child(2) ,
+    .service__drugstore_picture img ,
+    .service__cosmetic_picture img ,
+    .service__drugstore_description p:first-child,
+    .service__cosmetic_description p:first-child ,
+    .footer__service ,.footer__pages ,
+    .footer__download{
+        display: none;
+    }
+
+    /* display:block */
+    .nav__li_download ,
+    .nav__li_rules ,
+    .nav__navbar hr ,
+    .nav__navbar ul li ,
+    .nav__navbar_checkbtn ,
+    .register__form_responsive ,
+    .service__description p:last-child ,
+    .service__drugstore_description p:nth-child(2) ,
+    .service__cosmetic_description p:nth-child(2) ,
+    .footer__content{
+        display: block;
+    }
+
+    
+    .nav__navbar_checkbtn{
+        margin-left: 0;
+    }
+    .nav__navbar{
+        width: 90px;
+        margin-top: 35px; 
+    }
+    .nav__logo{
+        width: 140;
+    }
+    .nav__ul{
+        position: fixed;
+        width: 280px;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;  
+        background-color: white;
+    }
+    .nav__navbar ul li{
+        margin: 30px 0;  
+        z-index: 30000;
+        text-align: right;
+        margin-right: 35px;  
+    }
+    .nav__navbar ul li a{
+        font-size: 20px;
+        color:black;  
+    }
+    a:hover,a.active{
+        background: none;
+        color:#2361b5;
+    }
+    #check:checked ~ ul{
+        right: 0px;
+        width: 374;
+    }
+    .nav__navbar hr{
+        margin-right: 25px;
+        width: 250px;
+    }
+    .register{
+        flex-direction: column-reverse;
+        z-index: 0; 
+        background-image: none;
+        margin-left: 0;
+        align-items: center;
+    }
+    .register__drugstore_name{
+        height: 150px; 
+        width: 270; 
+        margin-left:0 ;
+
+    }
+    .register__form_content{
+        width: 250px;
+        margin-top: 0;
+        margin-right: 0px;
+    }
+    .register__drugstore_contain1 {
+        width: 200px;
+        height: 50px;
+    }
+    .register__drugstore_container1 {
+        width: 270px;
+        height: 84px;
+        margin-left: 0;
+              
+    }
+    .register__drugstore_logo1 {
+        width: 50px;
+        height: 50px
+    }
+    .register__drugstore_logo1 img{
+        width: 50px;
+        height: 50px;
+    }
+    .register__drugstore_title1 {
+        width: 100px;
+        height: 46px;
+        margin-top: 0;
+        margin-left: 30px;
+
+    }
+    .register__drugstore_button1 {
+        width: 53px;
+        height: 18px;
+        font-size: 8px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .register__drugstore_title1 p:first-child {
+        font-size: 13px;
+    }
+    .register__drugstore_title1 p {
+        font-size: 8px;
+    }
+    .register__description p:first-child {
+        width: 275px;
+        height: 77px;
+        font-size: 24px;
+    }
+    .register__description p{
+        width: 250px;
+        height: 121px;
+        font-size: 14px;
+    }
+    .register__form_responsive{
+        width: 250;
+        height: 50;
+    }
+    .register__form_responsive input {
+        width: 180px;
+        height: 50px;
+        margin-right: 0;
+        font-size: 8px;
+        padding-right: 20px;
+    }
+    .register__form_responsive input:last-child {
+        width: 60px;
+        height: 38px;
+        font-size: 12px;  
+        margin-top: 5px;
+        z-index: -1;
+    }
+    .counted{
+        flex-direction: column;  
+        height: 450px;
+        margin-top: 100px;
+    }
+    .service__container{ 
+        align-items: center;
+        flex-direction: column;
+    }
+    .service__drugstore{
+        margin-bottom: 30px;
+    }
+
+    .service__description{
+        width: 250px;
+        height: 87px;
+        margin-top: 60;
+        margin-right: 5px;
+    }
+    .service__description p:first-child {
+        font-size: 16px;
+        width: 319px;
+        height: 28px;
+        padding-right: 15px;
+    }
+    .service__description p {
+        font-size: 12px;
+        width: 250px;
+        height: 49px;
+    }
+    .service__drugstore_description ,
+    .service__cosmetic_description{
+        width: 260px;
+        height: 111px;
+        margin-top: 0;
+        margin-right: 10px;
+    }
+    .service__drugstore_description p:first-child ,
+    .service__cosmetic_description p:first-child {
+        font-size: 16px;
+    }
+    .service__drugstore_description p ,
+    .service__cosmetic_description p {
+        font-size: 12px;
+        width: 220px;
+    }.service__drugstore_description input ,
+    .service__cosmetic_description input{
+        width: 170px;
+        height: 52px;
+        font-size: 16px;
+    }
+    .service__drugstore ,
+    .service__cosmetic{
+        width: 250px;
+        height: 342px;
+        margin-top: 20px;   
+    }
+    .service__drugstore input ,
+    .service__cosmetic input{
+        margin-right: 40px;
+        margin-top: 0;
+    }
+    .service__drugstore_picture ,
+    .service__cosmetic_picture{
+        height:  110px;   
+    }
+    .service__drugstore_description p:nth-child(2) ,
+    .service__cosmetic_description p:nth-child(2){
+        font-size: 16px;
+        font-weight: bold;
+        color: #1894ff;
+        margin-bottom: 10px
+    }
+    .support{
+        flex-direction: column;
+        place-items: center;
+        height: 170px;
+    }
+    .support__description{
+        display: flex;
+        flex-direction: column;
+        margin-right: ;
+        margin-top: 30px;
+        width: 204px;
+        line-height: 30px;
+    }
+    .support__description p{
+        line-height: 0;
+        font-size: 12px;
+        font-weight: lighter;
+        width: 210;  
+    }
+    .support__description p:first-child{
+        font-size: 16px;
+        font-weight: bold;  
+    }
+    .support__tell{
+        width:260px ;
+        height: 52px;
+        margin-bottom: 20px;
+        margin-left:0px;
+    }
+    footer{   
+        margin: 0;
+    }
+    .footer__description{
+        margin-top: 0;
+        height: 100px;
+        margin-left: 0;
+    }
+    .footer__content{
+        margin-top: 50px;
+        margin-right: 50px; 
+    }
+    .footer__description_text p{
+        font-size: 14px;
+        width: 280px;
+    }
+    .footer__description_text{
+        margin-top: 35px;
+    }
+    .footer__logo_text p{
+        font-size: 12px;
+    }
+    .footer__logo_text p:first-child{
+        font-size: 18px;
+    }
+    .footer__socialmedia{
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+}  
+
+
+@media all and (min-width:375px) and (max-width:768px){
+
+    /* display:none */
+    .nav__download ,
+    .register__form ,
+    .register__drugstore_container2 ,
+    .register__drugstore_container3 ,
+    .service__description p:nth-child(2) ,
+    .service__drugstore_picture img ,
+    .service__cosmetic_picture img ,
+    .footer__service ,.footer__pages ,
+    .footer__download ,
+    .service__drugstore_description p:first-child,
+    .service__cosmetic_description p:first-child{
+        display: none;
+    }
+
+    /* display:block */
+    .nav__li_download ,
+    .nav__li_rules ,
+    .nav__navbar hr ,
+    .nav__navbar_checkbtn ,
+    .nav__navbar ul li ,
+    .register__form_responsive ,
+    .service__drugstore_description p:nth-child(2) ,
+    .service__cosmetic_description p:nth-child(2) ,
+    .service__description p:last-child ,
+    .footer__content{
+        display: block;
+    }
+
+    .nav__navbar{
+        margin-top: 35px;
+    }
+    .nav__logo{
+        width: 140;
+        margin-right: 20px;
+    }
+    .nav__navbar_checkbtn{
+        margin-left: 30px;   
+    }
+    .nav__ul{
+        position: fixed;
+        width: 375px;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        text-align: center;        
+        background-color: white;
+    }
+    .nav__navbar ul li{
+        margin: 30px 0;        
+        z-index: 30000;
+        text-align: right;
+        margin-right: 35px;        
+    }    
+    .nav__navbar ul li a{
+        font-size: 20px;
+        color:black;       
+    }
+    a:hover,a.active{
+        background: none;
+        color:#2361b5;
+    }
+    #check:checked ~ ul{
+        right: 0px;
+        width: 768;
+    }
+    .nav__navbar hr{
+        width: 320px;
+        margin-right: 25px;
+    }
+    .register{
+        flex-direction: column-reverse;
+        z-index: 0;
+        align-items: center;    
+        background-image: none;
+    }
+    .register__drugstore_name{
+        height: 150px;
+        width: 370px;
+        margin-left: 0;     
+    }
+    .register__form_content{       
+        margin-top: 0;
+        margin-right: 0px;
+    }
+    .register__drugstore_contain1 {
+        width: 213px;
+        height: 50px;
+    }
+    .register__drugstore_container1 {
+        width: 293px;
+        height: 84px;
+        margin-right: 10px;
+              
+    }
+    .register__drugstore_logo1 {
+        width: 50px;
+        height: 50px
+    }
+    .register__drugstore_logo1 img{
+        width: 50px;
+        height: 50px;
+    }
+    .register__drugstore_title1 {
+        width: 90px;
+        height: 46px;
+        margin-left: 60px;
+        margin-top: 0;
+    }
+    .register__drugstore_button1 {
+        width: 53px;
+        height: 18px;
+        font-size: 8px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .register__drugstore_title1 p:first-child {
+        font-size: 13px;
+    }
+    .register__drugstore_title1 p {
+        font-size: 8px;
+    }
+    
+    .register__description p:first-child {
+        width: 275px;
+        height: 77px;
+        font-size: 24px;
+    }
+    .register__description p{
+        width: 302px;
+        height: 121px;
+        font-size: 14px;
+    }
+    .register__form_responsive{
+        width: 300px;
+    }
+    .register__form_responsive input {
+        width: 200px;
+        height: 55px;
+        margin-right: 0;
+        font-size: 9px;
+    }
+    .register__form_responsive input:last-child {
+        width: 80px;
+        height: 38px;
+        font-size: 12px;        
+        margin-top: 14px;        
+    }
+    .counted{
+        flex-direction: column;       
+        height: 450px;
+        margin-top: 100px;
+    }
+    .service__container{      
+        align-items: center;
+        flex-direction: column;
+    }
+    .service__drugstore{
+        margin-bottom: 50px;
+    }
+    .service__description {
+        width: 302px;
+        height: 87px;
+        margin-top: 60;
+        margin-right: 35px;
+    }
+    .service__description p:first-child {
+        font-size: 16px;
+        width: 319px;
+        height: 28px;
+    }
+    .service__description p {
+        font-size: 12px;
+        width: 302px;
+        height: 49px;
+    }
+    .service__drugstore_description ,
+    .service__cosmetic_description {
+        width: 260px;
+        height: 111px;
+        margin-top: 0;
+    }
+    .service__drugstore_description p:first-child ,
+    .service__cosmetic_description p:first-child {
+        font-size: 16px;
+    }
+    .service__drugstore_description p ,
+    .service__cosmetic_description p {
+        font-size: 12px;
+    }
+    .service__drugstore_description input ,
+    .service__cosmetic_description input{
+        width: 170px;
+        height: 52px;
+        font-size: 16px;       
+    }
+    .service__drugstore ,
+    .service__cosmetic{
+        width: 303px;
+        height: 342px;
+        margin-top: 20px;       
+    }
+    .service__drugstore input ,
+    .service__cosmetic input{
+        margin-right: 63px;
+        margin-top: 0;
+    }
+    .service__drugstore_picture ,
+    .service__cosmetic_picture{
+        height:  110px;      
+    }
+    .service__drugstore_description p:nth-child(2) ,
+    .service__cosmetic_description p:nth-child(2){
+        font-size:16px ;
+        font-weight: bold;
+        color: #1894ff;
+        margin-bottom: 10px;
+    }
+    .support{
+        flex-direction: column;
+        align-items: center;  
+        height: 170px;
+    }
+    .support__description{
+        display: flex;
+        flex-direction: column;   
+        margin-top: 30px;
+        width: 204px;
+        height: 51px;
+        margin-left: 10;
+        margin-right: 0;
+        line-height: 30px;
+    }
+    .support__description p{
+        line-height: 0;
+        font-size: 12px;
+        font-weight: lighter;
+        width: 210;    
+    }
+    .support__description p:first-child{
+        font-size: 16px;   
+        font-weight: bold;   
+    }
+    .support__tell{
+        width:260px ;
+        height: 52px;
+        margin-bottom: 30px;
+       align-items: center;
+    }
+    footer{
+        margin:50 auto;
+    }
+    .footer__description{   
+        height: 100px;
+    }
+    .footer__content{
+        margin-top: 0;   
+        width: 230px;  
+    }
+    .footer__description_text p{
+        font-size: 14px;  
+    }
+    .footer__description_text{
+        margin-top: 35px;
+        width: 256px;
+    }
+    .footer__logo_text p{
+        font-size: 12px;
+    }
+    .footer__logo_text p:first-child{
+        font-size: 18px;
+    }
+    .footer__socialmedia{
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+}
+
+@media all and (min-width:769px) and (max-width:1365px){
+    .nav__navbar ul li{
+        margin-left:20px;
+    }
+    .nav__navbar ul{
+        margin-right:40;
+    }
+    .nav__logo{
+        margin-right: 10px;
+    }
+    .nav__download{
+        width: 140px;
+        margin-left: 10px;
+    }
+    .register{  
+        flex-direction: column;
+        align-items: center;   
+        background-image: none;
+    }
+    .register__drugstore_container1{
+        margin-left: 0;
+        margin-right: 100px;
+    }
+    .counted{
+        margin-top: 100px; 
+    }
+    .service__description{
+        margin-right: 50px;
+    }
+    .service__drugstore ,.service__cosmetic{
+        width: 300px;
+    }
+    .service__drugstore_description ,
+    .service__cosmetic_description{
+        width: 280px;
+        margin-right: 20px;
+    }
+    .service__drugstore input ,
+    .service__cosmetic input{
+        margin-right:65px;
+    }
+    .support{ 
+        justify-content: space-around;  
+    }
+    .support__description p{
+        margin-left: 0;
+        margin-right: 40px;
+    }
+    .support__description p:first-child{
+        margin-right: 0;
+    }
+    .footer__store{
+        width: 250px;
+    }
+    .footer__appstore{
+        margin-left:10px ;
+        width: 120px;
+    }
+    .footer__appstore img{
+        margin-top: 10px;
+        width: 120px;
+    }
+    .footer__description_text p{
+        width: 200px;
+    }
+    .footer__description_text{
+        margin-right: 10px;
+    }
+    .footer__description{
+        margin-right: 50px;
+    }
+}
