@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+
+.form{
+    margin: 20px 30px;
+}
+#form__userName ,#form__email ,#form__password ,#form__confrimPassword ,#form__submit{
+    width: 100%;
+    
+}
+.title{
+    text-align: center;
+    margin-top: 30px;
+}
+.form input{
+    margin-top: 5px;
+    /* margin-bottom: 30px; */
+    padding-left: 10px;
+    height: 40px;
+    border:1px solid rgb(236, 236, 236);
+    
+}
+#form__submit{
+    border: none;
+}
+#form__userName_error ,#form__email_error ,#form__password_error ,#form__confrimPassword_error{
+    margin-top: 5px;
+    color: red;
+}
+.form label{
+    color: rgb(158, 158, 158);
+}
+.form ::placeholder{
+    color: rgb(158, 158, 158);
+}
+#form__submit{
+    background-color: rgba(0, 119, 255, 0.856);
+    color: white;
+}
+/* .form input:valid{
+    border-color: rgb(30, 255, 0);
+}
+.form input:invalid{
+    border-color: red;
+} */
