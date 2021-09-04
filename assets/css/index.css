@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.calculator{
+    display: grid;
+}
+.btn{
+    display: grid;
+    width: 61px;
+    height: 60px;
+    color: #000;
+    place-items: center;
+    border: 1px solid rgb(190, 182, 182);
+    background-color: white;
+    font-size: 30px;
+}
+.btn:active{
+    background-color: gray;
+}
+.btn__answer{
+    overflow-wrap: break-word;
+    grid-column: span 4;
+    height: 80px;
+    text-align: right;
+    padding: 16px;
+    font-size: 30px;;
+    background-color: #000;
+    color: white;
+    border: none;
+    width: 244px;
+}
+.btn__zero{
+    grid-column: 1 / span 3;
+    grid-row: 6;
+    width: 183px;
+}
+.btn__clear{
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    border: 1px  solid rgb(190, 182, 182);
+    background-color: rgb(216, 210, 210);
+    font-size: 30px;
+}
+.btn__orange{
+   background-color: orange; 
+   font-size: 30px;
+}
+.btn__orange:active{
+background-color: rgb(255, 102, 0);
+}
+.clicked {
+    background-color: darken(orange, 10%);
+}
+@media only screen and (max-width: 414px){
+    .calculator , .btn__zero{
+        width: 100%;
+    }
+    .btn__answer{
+        height: 20vh;
+        font-size: 90px;
+        padding: 25px;
+        width: 100%;
+        
+    }
+    .btn{
+        height:16vh;
+        font-size: 40px;
+        width: 100%;
+    }
+    .btn__orange{
+        font-size: 40px;
+    }
+    .btn__clear{
+        font-size: 40px;
+    }
+}
